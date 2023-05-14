@@ -1,5 +1,5 @@
-console.log('hello world!');
+import Person from './person.js';
 
-const Person = require('./person');
+// const Person = require('./person');
 const person = new Person('Daniel', 23);
-console.log(person);
+console.log(person.greeting());
