@@ -3,7 +3,7 @@
 //     age: 23
 // }
 
-export default class Person {
+class Person {
     constructor(name, age) {
         this.name = name;
         this.age = age;
@@ -14,4 +14,4 @@ export default class Person {
     }
 }
 
-// module.exports = Person;
+module.exports = Person;
